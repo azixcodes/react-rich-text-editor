@@ -30,6 +30,7 @@ const MyEditor = () => {
     <div>
       <div className="my-editor">
         <ReactQuill
+        style={{border: 'none !important',fontSize:'10px'}}
           ref={quillRef}
           theme="snow"
           value={value}
