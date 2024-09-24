@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css";
+ 
 
 const MyEditor = () => {
   const [value, setValue] = useState("");
@@ -30,7 +31,6 @@ const MyEditor = () => {
     <div>
       <div className="my-editor">
         <ReactQuill
-        style={{border: 'none !important',fontSize:'10px'}}
           ref={quillRef}
           theme="snow"
           value={value}
@@ -48,5 +48,3 @@ const MyEditor = () => {
 };
 
 export default MyEditor;
-
-// need to change styling.

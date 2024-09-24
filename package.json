@@ -10,9 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "markdown-it": "^14.1.0",
     "quill": "^2.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-markdown-editor-lite": "^1.3.4",
     "react-quill": "^2.0.0"
   },
   "devDependencies": {
