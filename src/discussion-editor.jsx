@@ -66,13 +66,11 @@ const DiscussionEditor = () => {
           }
         }}
       />
-      <div className="meta-options">
-        <p>Markdown is supported</p>
-        <p>Paste, drop, or click to add files</p>
-      </div>
-      <div className="footer">
-        <input type="checkbox" /> I have done a search for similar discussions
-      </div>
+    <div
+        className="content-preview"
+        dangerouslySetInnerHTML={{ __html: mdParser.render(content) }}
+      />
+ 
     </div>
   );
 };
