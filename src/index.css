@@ -72,38 +72,17 @@ button:focus-visible {
 
 }
 
-.ql-editor {
-  min-height: 350px;
-  max-height: 600px;
-  overflow-y: auto;
-  
-}
 
-.ql-editor img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 10px auto;
-}
 
-.my-editor .ql-container {
-  border: 1px solid #333; /* Darker border */
-  border-radius: 8px;     /* Rounded corners */
-  padding: 10px;
-  
+.rc-md-navigation{
+  background-color: gray !important;
+  color: white !important;;
+  border-radius: 7px  !important;
 }
-
-.my-editor .ql-toolbar {
-  background-color: gray; /* Light background for toolbar */
-  border: 1px solid #333;     /* Darker border */
-  border-radius: 8px 8px 0 0; /* Rounded top corners */
+.button-wrap span{
+  color: white !important;
 }
-
-.my-editor .ql-editor {
-  min-height: 200px;
-  background-color: transparent;    /* White background for editor */
-  font-size: 14px;            /* Font size */
-  line-height: 1.5;
-  padding: 10px;
-  color: #333;                /* Text color */
+.rc-md-editor{
+  border-radius: 7px !important;
+  border: 2px solid red;  ;
 }
