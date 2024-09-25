@@ -68,12 +68,15 @@ button:focus-visible {
   border-radius: 4px;
   padding: 10px;
   min-height: 400px;
+
+
 }
 
 .ql-editor {
   min-height: 350px;
   max-height: 600px;
   overflow-y: auto;
+  
 }
 
 .ql-editor img {
@@ -81,4 +84,26 @@ button:focus-visible {
   height: auto;
   display: block;
   margin: 10px auto;
+}
+
+.my-editor .ql-container {
+  border: 1px solid #333; /* Darker border */
+  border-radius: 8px;     /* Rounded corners */
+  padding: 10px;
+  
+}
+
+.my-editor .ql-toolbar {
+  background-color: gray; /* Light background for toolbar */
+  border: 1px solid #333;     /* Darker border */
+  border-radius: 8px 8px 0 0; /* Rounded top corners */
+}
+
+.my-editor .ql-editor {
+  min-height: 200px;
+  background-color: transparent;    /* White background for editor */
+  font-size: 14px;            /* Font size */
+  line-height: 1.5;
+  padding: 10px;
+  color: #333;                /* Text color */
 }
